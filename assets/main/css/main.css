@@ -1,0 +1,12 @@
+/*Esconder o olho nativo no Microsoft Edge nos campos type="password"*/
+input::-ms-reveal, input::-ms-clear {
+    display: none;
+}
+
+.logo {
+    max-width: 244px;
+}
+
+.footer-main {
+    min-height: calc(100vh - 430px);
+}
