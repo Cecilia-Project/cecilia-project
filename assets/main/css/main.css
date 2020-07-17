@@ -10,3 +10,45 @@ input::-ms-reveal, input::-ms-clear {
 .footer-main {
     min-height: calc(100vh - 430px);
 }
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.z-index--1 {
+    z-index: -1;
+}
+
+.linha {
+    margin: 0;
+    height: 3px;
+    border-width:0;
+    background-color: #C1C7D0;
+    transform: translateY(17px);
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border: 3px solid #C1C7D0;
+    border-radius: 50%;
+}
+
+.step-active {
+    display: flex;
+    background-color: #5D15D3;
+    min-height: 16px;
+    min-width: 16px;
+    border-radius: 50%;
+}
+
+
+
+@media (min-width: 992px) {
+    .offset-lg-1ponto5 {
+        margin-left: 12.5%;
+    }
+}

@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title></title>
+    <title>Cadastre-se</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/main/img/favicon.png" type="image/png">
+    <!-- Font Awesome 5 -->
+    <link rel="stylesheet" href="assets/purpose/libs/@fortawesome/fontawesome-free/css/all.min.css"><!-- Page CSS -->
+    <link rel="stylesheet" href="assets/purpose/libs/fullcalendar/dist/fullcalendar.min.css">
+    <!-- Purpose CSS -->
+    <link rel="stylesheet" href="assets/purpose/css/purpose.css" id="stylesheet">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="assets/main/css/main.css" type="text/css">
 </head>
 <body>
 
+<div class="container p-3">
 
+    <div class="row align-items-center mb-5">
+        <div class="col-xl-3 col-5 mx-auto">
+            <img src="assets/main/img/logo-principal.svg" alt="logo" class="img-center w-100">
+        </div>
+    </div>
 
+    <div class="row no-gutters">
+        <div class="col-4 col-lg-3 d-flex flex-column justify-content-center text-center offset-lg-1ponto5">
+            <hr class="linha w-50 ml-auto z-index--1">
+            <span class="step bg-white mx-auto">
+                <span id="step-1"></span>
+            </span>
+            <span class="font-weight-900 text-dark">1ª Etapa</span>
+            <small class="text-muted no-wrap">Dados Pessoais</small>
+        </div>
+        <div class="col-4 col-lg-3 d-flex flex-column justify-content-center text-center">
+            <hr class="linha w-100 z-index--1">
+            <span class="step bg-white mx-auto">
+                <span id="step-2" class="step-active"></span>
+            </span>
+            <span class="font-weight-900 text-dark">2ª Etapa</span>
+            <small class="text-muted">Endereço</small>
+        </div>
+        <div class="col-4 col-lg-3 d-flex flex-column justify-content-center text-center">
+            <hr class="linha w-50 mr-auto z-index--1">
+            <span class="step bg-white mx-auto">
+                <span id="step-3"></span>
+            </span>
+            <span class="font-weight-900 text-dark">3ª Etapa</span>
+            <small class="text-muted">Confirmação</small>
+        </div>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<!-- Core JS - includes jquery, bootstrap, popper, in-view and sticky-kit -->
+<script src="assets/purpose/js/purpose.core.js"></script>
+<!-- Page JS -->
+<script src="assets/purpose/libs/progressbar.js/dist/progressbar.min.js"></script>
+<script src="assets/purpose/libs/apexcharts/dist/apexcharts.min.js"></script>
+<script src="assets/purpose/libs/moment/min/moment.min.js"></script>
+<script src="assets/purpose/libs/fullcalendar/dist/fullcalendar.min.js"></script>
+<!-- Purpose JS -->
+<script src="assets/purpose/js/purpose.js"></script>
+<!-- Custom JS -->
+<script src="assets/main/js/main.js"></script>
 </body>
 </html>
