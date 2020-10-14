@@ -59,7 +59,7 @@ input::-ms-reveal, input::-ms-clear {
 }
 
 .application-offset .container-application:before {
-    height: 340px !important;
+    height: 340px;
 }
 
 .card-body {
