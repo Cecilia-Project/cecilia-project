@@ -904,7 +904,12 @@
                     <div class="row h-100">
                         <div class="col-lg-6">
                             <div class="card hover-animation">
-                                <img src="assets/main/img/doguim.jpg" class="card-img-top animal-img" alt="doguinho">
+                                <div class="overflow-hidden">
+                                    <img src="assets/main/img/doguim.jpg" class="card-img-top animal-img hover-img-animation" alt="doguinho">
+                                </div>
+                                <div class="card-img-overlay flex-center opacity-0">
+                                    <span class="card-text text-light font-weight-900 mb-0">Acessar Perfil Completo</span>
+                                </div>
                                 <div class="card-header card-animal-body row no-gutters justify-content-between">
                                     <div class="d-flex align-items-center">
                                         <span class="card-text text-dark font-weight-900">Matheus</span>
@@ -940,7 +945,12 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="card hover-animation">
-                                <img src="assets/main/img/doguim.jpg" class="card-img-top animal-img" alt="doguinho">
+                                <div class="overflow-hidden">
+                                    <img src="assets/main/img/doguim.jpg" class="card-img-top animal-img hover-img-animation" alt="doguinho">
+                                </div>
+                                <div class="card-img-overlay flex-center opacity-0">
+                                    <span class="card-text text-light font-weight-900 mb-0">Acessar Perfil Completo</span>
+                                </div>
                                 <div class="card-header card-animal-body row no-gutters justify-content-between">
                                     <div class="d-flex align-items-center">
                                         <span class="card-text text-dark font-weight-900">Matheus</span>
@@ -976,7 +986,12 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="card hover-animation">
-                                <img src="assets/main/img/doguim.jpg" class="card-img-top animal-img" alt="doguinho">
+                                <div class="overflow-hidden">
+                                    <img src="assets/main/img/doguim.jpg" class="card-img-top animal-img hover-img-animation" alt="doguinho">
+                                </div>
+                                <div class="card-img-overlay flex-center opacity-0">
+                                    <span class="card-text text-light font-weight-900 mb-0">Acessar Perfil Completo</span>
+                                </div>
                                 <div class="card-header card-animal-body row no-gutters justify-content-between">
                                     <div class="d-flex align-items-center">
                                         <span class="card-text text-dark font-weight-900">Matheus</span>
@@ -1012,7 +1027,12 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="card hover-animation">
-                                <img src="assets/main/img/doguim.jpg" class="card-img-top animal-img" alt="doguinho">
+                                <div class="overflow-hidden">
+                                    <img src="assets/main/img/doguim.jpg" class="card-img-top animal-img hover-img-animation" alt="doguinho">
+                                </div>
+                                <div class="card-img-overlay flex-center opacity-0">
+                                    <span class="card-text text-light font-weight-900 mb-0">Acessar Perfil Completo</span>
+                                </div>
                                 <div class="card-header card-animal-body row no-gutters justify-content-between">
                                     <div class="d-flex align-items-center">
                                         <span class="card-text text-dark font-weight-900">Matheus</span>
@@ -1232,6 +1252,19 @@
 <script src="./assets/purpose/libs/fullcalendar/dist/locale/pt-br.js"></script>
 <!-- Purpose JS -->
 <script src="./assets/purpose/js/purpose.js"></script>
+<script>
+    document.querySelectorAll('.card-img-overlay').forEach(img => {
+        img.addEventListener('mouseenter', e => {
+            e.path[1].firstChild.nextSibling.firstChild.nextSibling.style.filter = 'blur(30px)'
+        })
+    })
+
+    document.querySelectorAll('.card-img-overlay').forEach(img => {
+        img.addEventListener('mouseleave', evt => {
+            evt.path[1].firstChild.nextSibling.firstChild.nextSibling.style.filter = ''
+        })
+    })
+</script>
 </body>
 
 </html>
