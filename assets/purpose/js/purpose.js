@@ -1552,9 +1552,13 @@ if($('[data-toggle="widget-calendar"]')[0]) {
 
     //Display Current Date as Calendar widget header
     var mYear = moment().format('YYYY');
-    var mDay = moment().format('D [de] MMM · dddd');
+    var mDay1 = moment().format('D');
+    var mDay2 = moment().format('MMM');
+    var mDay3 = moment().format(' · dddd');
     $('.widget-calendar-year').html(mYear);
-    $('.widget-calendar-day').html(mDay);
+    $('.widget-calendar-day-1').html(mDay1);
+    $('.widget-calendar-day-2').html(mDay2);
+    $('.widget-calendar-day-3').html(mDay3);
 }
 
 //

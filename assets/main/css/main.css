@@ -179,3 +179,7 @@ small.text-muted {
 .card-img-overlay:hover ~ .hover-img-animation {
     filter: blur(2px);
 }
+
+.widget-calendar-day-2 {
+    text-transform: capitalize;
+}
