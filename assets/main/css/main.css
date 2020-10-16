@@ -133,6 +133,7 @@ small.text-muted {
 .widget-calendar {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    height: 490px;
 }
 
 .btn-evento {
