@@ -167,7 +167,6 @@ small.text-muted {
 }
 
 .card-img-overlay {
-    max-height: 125px;
     transition: all 250ms ease;
     background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(110, 0, 255, 0.7));
 }
@@ -182,4 +181,42 @@ small.text-muted {
 
 .widget-calendar-day-2 {
     text-transform: capitalize;
+}
+
+.fs-125 {
+    font-size: 1.125rem;
+}
+
+.text-caution {
+    color: #fd7e14 !important;
+}
+
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+    border-top-left-radius: 50rem;
+    border-bottom-left-radius: 50rem;
+    border-right: 0;
+    background-color: transparent;
+}
+
+#filtrar::placeholder {
+    color: white;
+}
+
+#filtrar {
+    border-top-right-radius: 50rem;
+    border-bottom-right-radius: 50rem;
+    border-left: 0 !important;
+    padding-left: 0;
+}
+
+.h-39 {
+    height: 39px;
+}
+
+.bg-default {
+    background-color: #f8f8fb;
+}
+
+.object-fit-cover {
+    object-fit: cover !important;
 }

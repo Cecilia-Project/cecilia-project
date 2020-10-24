@@ -33,6 +33,9 @@ var Layout = (function() {
         localStorage.setItem('sidenav-state', 'pinned');
 
         // alert('pinned')
+		document.querySelectorAll('.card-img-overlay').forEach(overlay => {
+			overlay.style.height = document.querySelector('.hover-img-animation').clientHeight.toString() + 'px'
+		})
     }
 
     function unpinSidenav($this) {
@@ -50,6 +53,9 @@ var Layout = (function() {
         localStorage.setItem('sidenav-state', 'unpinned');
 
         // alert('unpinned')
+		document.querySelectorAll('.card-img-overlay').forEach(overlay => {
+			overlay.style.height = document.querySelector('.hover-img-animation').clientHeight.toString() + 'px'
+		})
     }
 
     // Set sidenav state from cookie
