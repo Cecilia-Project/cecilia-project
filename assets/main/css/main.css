@@ -224,3 +224,7 @@ small.text-muted {
 .application .sidenav-user {
     height: 260px;
 }
+
+.input-group {
+    width: 50%;
+}
