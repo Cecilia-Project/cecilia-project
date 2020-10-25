@@ -220,3 +220,7 @@ small.text-muted {
 .object-fit-cover {
     object-fit: cover !important;
 }
+
+.application .sidenav-user {
+    height: 260px;
+}
