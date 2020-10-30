@@ -228,3 +228,13 @@ small.text-muted {
 .input-group {
     width: 50%;
 }
+
+#ver-mais {
+    background-color: #FBFCFD;
+}
+
+#ver-mais:hover {
+    background-color: #6e00ff;
+    border-color: transparent;
+    color: white !important;
+}
