@@ -238,3 +238,7 @@ small.text-muted {
     border-color: transparent;
     color: white !important;
 }
+
+h5.fullcalendar-title {
+    text-transform: capitalize;
+}
